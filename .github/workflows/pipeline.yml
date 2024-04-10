@@ -22,4 +22,5 @@ jobs:
     - name: Run unit tests
       run: npm run test:unit
     - name: Display SoftUni username
-      run: Echo "netmasterbg"
+      run: echo "netmasterbg"
+
