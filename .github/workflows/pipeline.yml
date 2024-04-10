@@ -37,6 +37,6 @@ jobs:
         cache: 'npm'
     - name: Install the deps
       run: npm install
-    - name: Run ui tests
+    - name: Run UI tests
       run: npm run test:ui
  
