@@ -37,6 +37,8 @@ jobs:
         cache: 'npm'
     - name: Install the deps
       run: npm install
+    - name: Install needed browsers
+      run: npx playwright install 
     - name: Run ui tests
       run: npm run test:ui
  
